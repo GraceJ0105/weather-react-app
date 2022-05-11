@@ -1,14 +1,17 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Weather from "./Weather";
+import "./styles.css";
+//import Forecast from "./Forecast";
+import WeatherToday from "./WeatherToday";
+//import Search from "./Search";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello </h1>
-        <Weather city="Vancouver" />
-      </header>
+      <div className="container WeatherApp">
+        <div className="row">
+          <WeatherToday />
+        </div>
+      </div>
     </div>
   );
 }

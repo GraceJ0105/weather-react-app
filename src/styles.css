@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+}
+
+.App .WeatherApp {
+  max-width: 50%;
+  margin: 0px auto;
+  margin-top: 50px;
+  border: solid grey 1px;
+  padding: 10px;
+  border-radius: 1.5px;
+}
+
+@media (max-width: 768px) {
+  .App .WeatherApp {
+    max-width: 80%;
+    margin-top: 30px;
+    padding: 5px;
+  }
+}

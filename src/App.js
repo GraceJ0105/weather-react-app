@@ -15,7 +15,11 @@ function App() {
         >
           <WeatherToday city="Doncaster" />
           <footer className="footer">
-            <a href="https://github.com/GraceJ0105/weather-react-app">
+            <a
+              href="https://github.com/GraceJ0105/weather-react-app"
+              target="_blank"
+              rel="noreferrer"
+            >
               Open source
             </a>{" "}
             code, by Grace Johnson

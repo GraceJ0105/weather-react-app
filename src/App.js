@@ -13,8 +13,17 @@ export default function App() {
         <div class="row">
           <WeatherToday />
         </div>
-       
       </div>
+      <footer>
+        <a
+          href="https://github.com/GraceJ0105/weather-react-app"
+          target="_blank"
+          rel="norefferer"
+        >
+          Open source
+        </a>{" "}
+        code, by Grace Johnson
+      </footer>
     </div>
   );
 }

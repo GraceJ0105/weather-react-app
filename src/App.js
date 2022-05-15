@@ -1,33 +1,20 @@
-import React from "react";
 import "./styles.css";
-//import Forecast from "./Forecast";
-import WeatherToday from "./WeatherToday";
-//import Search from "./Search";
-import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
+import WeatherToday from "./WeatherToday";
+import Search from "./Search";
+
+export default function App() {
   return (
     <div className="App">
-      <div className="container">
-        <div
-          className="
-        WeatherApp"
-        >
-          <WeatherToday city="Doncaster" />
-          <footer className="footer">
-            <a
-              href="https://github.com/GraceJ0105/weather-react-app"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Open source
-            </a>{" "}
-            code, by Grace Johnson
-          </footer>
+      <div className="container WeatherApp">
+        <div class="row">
+          <Search />
         </div>
+        <div class="row">
+          <WeatherToday />
+        </div>
+       
       </div>
     </div>
   );
 }
-
-export default App;

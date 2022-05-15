@@ -1,5 +1,7 @@
 .App {
   font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .App .WeatherApp {
@@ -11,15 +13,12 @@
   border-radius: 1.5px;
 }
 
-.App footer {
-  text-align: center;
-  opacity: 80%;
-}
-
 @media (max-width: 768px) {
   .App .WeatherApp {
     max-width: 80%;
     margin-top: 30px;
+    border: solid grey 1px;
     padding: 5px;
+    border-radius: 1.5px;
   }
 }

@@ -4,7 +4,7 @@ import "./WeatherToday.css";
 //import ReactAnimatedWeather from "react-animated-weather";
 
 export default function WeatherToday() {
-  let [city, setCity] = useState("Vancouver");
+  let [city, setCity] = useState("");
   let [temperature, setTemperature] = useState(null);
   let [WeatherUpdate, setWeatherUpdate] = useState("");
   let [windSpeed, setWindspeed] = useState(null);

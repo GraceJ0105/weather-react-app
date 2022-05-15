@@ -14,13 +14,13 @@ function App() {
         WeatherApp"
         >
           <WeatherToday city="Doncaster" />
+          <footer className="footer">
+            <a href="https://github.com/GraceJ0105/weather-react-app">
+              Open source
+            </a>{" "}
+            code, by Grace Johnson
+          </footer>
         </div>
-        <footer className="footer">
-          <a href="https://github.com/GraceJ0105/weather-react-app">
-            Open source
-          </a>{" "}
-          code, by Grace Johnson
-        </footer>
       </div>
     </div>
   );

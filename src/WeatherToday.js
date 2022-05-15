@@ -4,7 +4,7 @@ import "./WeatherToday.css";
 //import ReactAnimatedWeather from "react-animated-weather";
 
 export default function WeatherToday() {
-  let [city, setCity] = useState(" ");
+  let [city, setCity] = useState("Vancouver");
   let [temperature, setTemperature] = useState(null);
   let [WeatherUpdate, setWeatherUpdate] = useState("");
   let [windSpeed, setWindspeed] = useState(null);
@@ -50,17 +50,23 @@ export default function WeatherToday() {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
-        <input
-          className="searchCity col-8"
-          type="search"
-          placeholder="Search for a city..."
-          autoFocus="on"
-          autoComplete="off"
-          onChange={updateCity}
-        />
-        <input type="submit" value="Search" className="searchButton col-4" />
-      </form>
+      <div className="row">
+        <form onSubmit={handleSubmit}>
+          <input
+            className="searchCity form-control col-8"
+            type="search"
+            placeholder="Search for a city..."
+            autoFocus="on"
+            autoComplete="off"
+            onChange={updateCity}
+          />
+          <input
+            type="submit"
+            value="Search"
+            className="searchButton btn btn-primary mb-2 col-4"
+          />
+        </form>
+      </div>
       <br />
       <div>{WeatherUpdate}</div>
     </div>

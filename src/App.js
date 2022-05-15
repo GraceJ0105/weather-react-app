@@ -8,10 +8,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      <div className="container WeatherApp">
-        <div className="row">
-          <WeatherToday />
+      <div className="container">
+        <div
+          className="
+        WeatherApp"
+        >
+          <WeatherToday city="Doncaster" />
         </div>
+        <footer className="footer">
+          <a href="https://github.com/GraceJ0105/weather-react-app">
+            Open source
+          </a>{" "}
+          code, by Grace Johnson
+        </footer>
       </div>
     </div>
   );

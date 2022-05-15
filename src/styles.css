@@ -11,6 +11,11 @@
   border-radius: 1.5px;
 }
 
+.App footer {
+  text-align: center;
+  opacity: 80%;
+}
+
 @media (max-width: 768px) {
   .App .WeatherApp {
     max-width: 80%;

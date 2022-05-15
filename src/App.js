@@ -1,7 +1,7 @@
 import "./styles.css";
-
 import WeatherToday from "./WeatherToday";
 import Search from "./Search";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ export default function App() {
         <a
           href="https://github.com/GraceJ0105/weather-react-app"
           target="_blank"
-          rel="norefferer"
+          rel="noreferrer"
         >
           Open source
         </a>{" "}

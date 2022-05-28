@@ -12,14 +12,16 @@ export default function WeatherForecastDay(props) {
   return (
     <div>
       <div className="WeatherForecast-day"> {formatDate()} </div>
-      <WeatherIcon code={props.data.weather[0].icon} size={30} />
+      <WeatherIcon code={props.data.weather[0].icon} size={35} />
       <div>
+          <div className="forecastTemperature">
         <span className="WeatherForecast-temperature-max">
           {Math.round(props.data.temp.max)}°C
         </span>
         <span className="WeatherForecast-temperature-min">
           {Math.round(props.data.temp.min)}°C
         </span>
+        </div>
       </div>
     </div>
   );

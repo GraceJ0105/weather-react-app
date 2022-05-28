@@ -5,7 +5,7 @@
 }
 
 .App .WeatherApp {
-  max-width: 50%;
+  max-width: 40%;
   margin: 0px auto;
   margin-top: 50px;
   border: solid grey 2px;
@@ -13,7 +13,7 @@
   border-radius: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .App .WeatherApp {
     max-width: 80%;
     margin-top: 30px;

@@ -84,7 +84,7 @@ export default function WeatherToday(props) {
 
         <div className="row weatherRow">
           <div className="col-sm">
-            <h1>{weatherData.city}</h1>
+            <h1 className="city">{weatherData.city}</h1>
             <FormattedDate date={weatherData.date} />
             <Temperature temp={weatherData.temperature} />
             <WeatherIcon code={weatherData.icon} size={60} />

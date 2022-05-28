@@ -3,9 +3,10 @@
   text-align: left;
   font-size: 14px;
   font-weight: bold;
-  
 }
-
+.WeatherToday .city {
+  margin-bottom: 0px;
+}
 .WeatherToday .weatherRow {
   margin: 0px auto;
 }
@@ -19,10 +20,28 @@
   opacity: 0.6;
 }
 
+.WeatherToday .currentButton {
+  margin-left: 10px;
+}
 
-@media (max-width: 768px) {
-  li {
+.WeatherToday .searchButton {
+  margin-right: 10px;
+}
+
+.WeatherToday .currentButton {
+  padding: 4px 25px;
+}
+
+.WeatherToday .searchButton {
+  padding: 4px 25px;
+}
+
+@media (max-width: 1100px) {
+  .WeatherToday li {
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .WeatherToday ul {
+    margin-top: 10px;
   }
 }

@@ -8,9 +8,9 @@
   max-width: 50%;
   margin: 0px auto;
   margin-top: 50px;
-  border: solid grey 1px;
+  border: solid grey 2px;
   padding: 10px;
-  border-radius: 1.5px;
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {

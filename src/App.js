@@ -1,17 +1,13 @@
 import "./styles.css";
 import WeatherToday from "./WeatherToday";
-import Search from "./Search";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container WeatherApp">
-        <div class="row">
-          <Search />
-        </div>
-        <div class="row">
-          <WeatherToday />
+        <div className="row">
+          <WeatherToday defaultCity="Vancouver" />
         </div>
       </div>
       <footer>

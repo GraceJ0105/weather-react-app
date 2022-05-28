@@ -1,17 +1,24 @@
-.rain {
-  max-width: 50%;
-  height: auto;
-}
-
-li {
+.WeatherToday li {
   list-style: none;
   text-align: left;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  
 }
 
-ul {
-  padding: 0px;
+.WeatherToday .weatherRow {
+  margin: 0px auto;
 }
+
+.WeatherToday ul {
+  padding: 0px;
+  margin-top: 28px;
+}
+
+.WeatherToday .weatherSubject {
+  opacity: 0.6;
+}
+
 
 @media (max-width: 768px) {
   li {

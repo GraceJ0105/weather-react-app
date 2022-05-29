@@ -1,3 +1,11 @@
-.Temperature .celcius .active {
-  color: red;
+.Temperature a {
+  text-decoration: none;
+}
+
+.Temperature a:active {
+  text-decoration: underline;
+}
+
+.Temperature a:hover {
+  cursor: pointer;
 }

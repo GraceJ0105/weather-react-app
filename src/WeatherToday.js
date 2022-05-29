@@ -89,7 +89,7 @@ export default function WeatherToday(props) {
             <Temperature temp={weatherData.temperature} />
             <WeatherIcon code={weatherData.icon} size={60} />
           </div>
-          <div className="WeatherInfo col-sm mt-4">
+          <div className="WeatherInfo col-sm mt-2">
             <ul>
               <li>
                 <span className="weatherSubject">Wind Speed:</span>{" "}
